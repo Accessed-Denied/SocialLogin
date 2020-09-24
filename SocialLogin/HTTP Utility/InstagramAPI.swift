@@ -137,4 +137,57 @@ class InstagramApi {
 
       dataTask.resume()
     }
+    
+    func postApiData<T:Decodable>(requestUrl: URLRequest, resultType: T.Type, completionHandler:@escaping(_ result: T)-> Void)
+    {
+        guard let authToken = getTokenFromCallbackURL(request: requestUrl)   else {
+          return
+        }
+        let headers = [
+          "content-type": "multipart/form-data; boundary=\(boundary)"
+        ]
+        let parameters = [
+          [
+            "name": "app_id",
+            "value": instagramAppID
+          ],
+          [
+            "name": "app_secret",
+            "value": app_secret
+          ],
+          [
+            "name": "grant_type",
+            "value": "authorization_code"
+          ],
+          [
+            "name": "redirect_uri",
+            "value": redirectURI
+          ],
+          [
+            "name": "code",
+            "value": authToken
+          ]
+        ]
+        let postData = getFormBody(parameters, boundary)
+        var urlRequest = URLRequest(url: URL(string:   BaseURL.displayApi.rawValue + Method.access_token.rawValue)!)
+        urlRequest.httpMethod = "post"
+        urlRequest.httpBody = postData
+        urlRequest.allHTTPHeaderFields = headers
+//        urlRequest.addValue("application/json", forHTTPHeaderField: "content-type")
+
+        URLSession.shared.dataTask(with: urlRequest) { (data, httpUrlResponse, error) in
+
+            if(data != nil && data?.count != 0)
+            {
+                do {
+
+                    let response = try JSONDecoder().decode(T.self, from: data!)
+                    _=completionHandler(response)
+                }
+                catch let decodingError {
+                    debugPrint(decodingError)
+                }
+            }
+        }.resume()
+    }
 }

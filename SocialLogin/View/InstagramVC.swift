@@ -41,13 +41,16 @@ extension InstagramVC: WKNavigationDelegate {
 //        }
 //        if let url = navigationAction.request.url {
 //        if url.absoluteString.contains("oauth/access_token") {
-            self.instagramApi.getTestUserIDAndToken(request: request) { (instagramTestUser) in
-                print(instagramTestUser)
+//            self.instagramApi.postApiData(requestUrl: request, resultType: <#T##Decodable.Protocol#>, completionHandler: <#T##(Decodable) -> Void#>)(request: request) { (instagramTestUser) in
+//                print(instagramTestUser)
 //                    self.testUserData = instagramTestUser
             //        self.presentAuth = false
-                    }
+//                    }
 //            }
 //        }
+        self.instagramApi.postApiData(requestUrl: request, resultType: InstagramTestUser.self) { (response) in
+            print(response)
+        }
         decisionHandler(.allow)
     }
 }
