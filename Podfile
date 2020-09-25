@@ -6,6 +6,7 @@ target 'SocialLogin' do
   use_frameworks!
 
   # Pods for SocialLogin
+  pod 'Alamofire','4.9.1'
 
   target 'SocialLoginTests' do
     inherit! :search_paths
