@@ -19,7 +19,7 @@ struct InstagramViewModel {
     
     func getInstagramToken(request: InstagramTokenRequest){
         GCD.USER.InstagramToken.async {
-            APIManager.sharedInstance.I_AM_DAMN_COOL(params: request.toJSON(), api: API.USER.InstagramToken, Loader: true, isMultipart: false) { (response) in
+            APIManager.sharedInstance.I_AM_DAMN_COOL(params: request.toJSON(), api: API.USER.InstagramToken, Loader: false, isMultipart: false) { (response) in
                 if response != nil{                             //if response is not empty
                     do {
                         let success = try JSONDecoder().decode(InstagramTokenResponse.self, from: response!) // decode the response into success model
