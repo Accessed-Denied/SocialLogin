@@ -19,10 +19,13 @@
 		FA3F50AC251A364600E86335 /* InstagramVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F50AB251A364600E86335 /* InstagramVC.swift */; };
 		FA3F50AE251A382700E86335 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F50AD251A382700E86335 /* HomeVC.swift */; };
 		FA3F50B1251A3A5B00E86335 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3F50B0251A3A5B00E86335 /* WebKit.framework */; };
-		FA3F50B3251A45B900E86335 /* InstagramResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F50B2251A45B900E86335 /* InstagramResponse.swift */; };
 		FA3F50D1251E57F800E86335 /* API_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F50D0251E57F800E86335 /* API_Manager.swift */; };
 		FA4C7BA8252BA0CC0066D74C /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C7BA7252BA0CC0066D74C /* AppModel.swift */; };
 		FA4C7BAA252BA1E40066D74C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C7BA9252BA1E40066D74C /* Utility.swift */; };
+		FA4C7BAC252BA3C90066D74C /* InstagramTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C7BAB252BA3C90066D74C /* InstagramTokenRequest.swift */; };
+		FA4C7BAE252BA4100066D74C /* InstagramTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C7BAD252BA4100066D74C /* InstagramTokenResponse.swift */; };
+		FA4C7BB0252BA45E0066D74C /* InstagramViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C7BAF252BA45E0066D74C /* InstagramViewModel.swift */; };
+		FA4C7BB2252BA4BD0066D74C /* API_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C7BB1252BA4BC0066D74C /* API_Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +59,13 @@
 		FA3F50AB251A364600E86335 /* InstagramVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramVC.swift; sourceTree = "<group>"; };
 		FA3F50AD251A382700E86335 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		FA3F50B0251A3A5B00E86335 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		FA3F50B2251A45B900E86335 /* InstagramResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramResponse.swift; sourceTree = "<group>"; };
 		FA3F50D0251E57F800E86335 /* API_Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API_Manager.swift; sourceTree = "<group>"; };
 		FA4C7BA7252BA0CC0066D74C /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		FA4C7BA9252BA1E40066D74C /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		FA4C7BAB252BA3C90066D74C /* InstagramTokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramTokenRequest.swift; sourceTree = "<group>"; };
+		FA4C7BAD252BA4100066D74C /* InstagramTokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramTokenResponse.swift; sourceTree = "<group>"; };
+		FA4C7BAF252BA45E0066D74C /* InstagramViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramViewModel.swift; sourceTree = "<group>"; };
+		FA4C7BB1252BA4BC0066D74C /* API_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				FA4C7BA7252BA0CC0066D74C /* AppModel.swift */,
+				FA4C7BAB252BA3C90066D74C /* InstagramTokenRequest.swift */,
+				FA4C7BAD252BA4100066D74C /* InstagramTokenResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -149,7 +157,7 @@
 		FA3F50A9251A35FB00E86335 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				FA3F50B2251A45B900E86335 /* InstagramResponse.swift */,
+				FA4C7BAF252BA45E0066D74C /* InstagramViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -160,6 +168,7 @@
 				FA3F50D0251E57F800E86335 /* API_Manager.swift */,
 				FA3F50A5251A352200E86335 /* InstagramAPI.swift */,
 				FA4C7BA9252BA1E40066D74C /* Utility.swift */,
+				FA4C7BB1252BA4BC0066D74C /* API_Helper.swift */,
 			);
 			path = "HTTP Utility";
 			sourceTree = "<group>";
@@ -353,6 +362,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4C7BAE252BA4100066D74C /* InstagramTokenResponse.swift in Sources */,
+				FA4C7BB2252BA4BD0066D74C /* API_Helper.swift in Sources */,
+				FA4C7BB0252BA45E0066D74C /* InstagramViewModel.swift in Sources */,
+				FA4C7BAC252BA3C90066D74C /* InstagramTokenRequest.swift in Sources */,
 				FA3F50D1251E57F800E86335 /* API_Manager.swift in Sources */,
 				FA3F50AC251A364600E86335 /* InstagramVC.swift in Sources */,
 				FA4C7BAA252BA1E40066D74C /* Utility.swift in Sources */,
@@ -361,7 +374,6 @@
 				FA3F50AE251A382700E86335 /* HomeVC.swift in Sources */,
 				FA3F50842519F14300E86335 /* AppDelegate.swift in Sources */,
 				FA3F50862519F14300E86335 /* SceneDelegate.swift in Sources */,
-				FA3F50B3251A45B900E86335 /* InstagramResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

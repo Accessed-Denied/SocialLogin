@@ -15,6 +15,7 @@ import SainiUtils
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var activityLoader : NVActivityIndicatorView!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -50,7 +51,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          window?.isUserInteractionEnabled = false
          activityLoader = NVActivityIndicatorView(frame: CGRect(x: ((window?.frame.size.width)!-50)/2, y: ((window?.frame.size.height)!-50)/2, width: 50, height: 50))
          activityLoader.type = .ballPulse
-         activityLoader.color = UIColor.DarkGolden
+         activityLoader.color = UIColor.gray
          window?.addSubview(activityLoader)
          activityLoader.startAnimating()
      }
@@ -67,21 +68,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          activityLoader = nil
      }
      
-     func application(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-         let handled = ApplicationDelegate.shared.application(
-             application,
-             open: url,
-             sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String,
-             annotation: options[UIApplication.OpenURLOptionsKey.annotation])
-         return handled
-     }
-     
-    
-     //MARK:- sharedDelegate
-     func sharedDelegate() -> AppDelegate
-     {
-         return UIApplication.shared.delegate as! AppDelegate
-     }
-
 }
 

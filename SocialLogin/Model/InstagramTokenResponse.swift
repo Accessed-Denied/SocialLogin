@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+struct InstagramTokenResponse: Codable {
+    let accessToken: String
+    let userID: Int
+
+    enum CodingKeys: String, CodingKey {
+        case accessToken = "access_token"
+        case userID = "user_id"
+    }
+}
+
+struct InstagramUser:Codable{
+    let id,username: String
+}

@@ -12,7 +12,7 @@ import WebKit
 class InstagramVC: UIViewController {
     
     var instagramApi = InstagramApi.shared
-//    var testUserData = InstagramTestUser!
+    private var instaVM: InstagramViewModel = InstagramViewModel()
 
     @IBOutlet weak var webView: WKWebView!{
         didSet {
@@ -21,6 +21,13 @@ class InstagramVC: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        configUI()
+    }
+    
+    //MARK: - configUI
+    private func configUI() {
+        instaVM.delegate = self
+        
         instagramApi.authorizeApp { (url) in
             print(url)
             DispatchQueue.main.async {
@@ -37,8 +44,15 @@ extension InstagramVC: WKNavigationDelegate {
         let request = navigationAction.request
         if let authorizedCode = self.instagramApi.getTokenFromCallbackURL(request: request){
             print(authorizedCode)
-            socialVM.getInstagramToken(request: InstagramTokenRequest(code: authorizedCode))
+            instaVM.getInstagramToken(request: InstagramTokenRequest(code: authorizedCode))
         }
         decisionHandler(.allow)
+    }
+}
+
+//MARK: - InstaDelegate
+extension InstagramVC: InstaDelegate{
+    func didRecievedInstagramToken(response: InstagramTokenResponse) {
+        print(response)
     }
 }
