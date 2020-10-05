@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import NVActivityIndicatorView
+import IQKeyboardManagerSwift
+import SainiUtils
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -39,20 +42,46 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
-//    //MARK: - removeLoader
-//    func removeLoader()
-//    {
-//        
-//        backView?.isUserInteractionEnabled = true
-//        if activityLoader == nil
-//        {
-//            return
-//        }
-//        activityLoader.stopAnimating()
-//        backView.removeFromSuperview()
-//        activityLoader = nil
-//    }
+    
+    //MARK:- Loader
+     func showLoader()
+     {
+         removeLoader()
+         window?.isUserInteractionEnabled = false
+         activityLoader = NVActivityIndicatorView(frame: CGRect(x: ((window?.frame.size.width)!-50)/2, y: ((window?.frame.size.height)!-50)/2, width: 50, height: 50))
+         activityLoader.type = .ballPulse
+         activityLoader.color = UIColor.DarkGolden
+         window?.addSubview(activityLoader)
+         activityLoader.startAnimating()
+     }
+     
+     func removeLoader()
+     {
+         window?.isUserInteractionEnabled = true
+         if activityLoader == nil
+         {
+             return
+         }
+         activityLoader.stopAnimating()
+         activityLoader.removeFromSuperview()
+         activityLoader = nil
+     }
+     
+     func application(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+         let handled = ApplicationDelegate.shared.application(
+             application,
+             open: url,
+             sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String,
+             annotation: options[UIApplication.OpenURLOptionsKey.annotation])
+         return handled
+     }
+     
+    
+     //MARK:- sharedDelegate
+     func sharedDelegate() -> AppDelegate
+     {
+         return UIApplication.shared.delegate as! AppDelegate
+     }
 
 }
 

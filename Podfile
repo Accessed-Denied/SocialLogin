@@ -9,6 +9,8 @@ target 'SocialLogin' do
   pod 'Alamofire','4.9.1'
   pod 'SainiUtils'
   pod 'Toaster'
+  pod 'NVActivityIndicatorView'
+  pod 'IQKeyboardManagerSwift'
 
   target 'SocialLoginTests' do
     inherit! :search_paths

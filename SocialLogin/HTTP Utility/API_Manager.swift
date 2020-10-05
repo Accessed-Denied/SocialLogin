@@ -391,7 +391,7 @@ public class APIManager {
         }
     }
     
-    //MARK:- I AM COOL
+    //MARK:- I_AM_DAMN_COOL
     func I_AM_DAMN_COOL(params: [String: Any],api: String,Loader: Bool,isMultipart:Bool,_ completion: @escaping (_ dictArr: Data?) -> Void){
         if !APIManager.isConnectedToNetwork()
         {

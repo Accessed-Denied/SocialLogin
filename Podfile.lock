@@ -1,24 +1,34 @@
 PODS:
   - Alamofire (4.9.1)
+  - IQKeyboardManagerSwift (6.5.6)
+  - NVActivityIndicatorView (5.0.1):
+    - NVActivityIndicatorView/Base (= 5.0.1)
+  - NVActivityIndicatorView/Base (5.0.1)
   - SainiUtils (0.2.1)
   - Toaster (2.2.0)
 
 DEPENDENCIES:
   - Alamofire (= 4.9.1)
+  - IQKeyboardManagerSwift
+  - NVActivityIndicatorView
   - SainiUtils
   - Toaster
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - IQKeyboardManagerSwift
+    - NVActivityIndicatorView
     - SainiUtils
     - Toaster
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  NVActivityIndicatorView: 738e843cb8924e9e4fc3e559d0728031624bf860
   SainiUtils: 0fe398d1030ebbd6edf7f51e5e3ebfd19a48ef27
   Toaster: c1a81b376edcc2470157b4d1ee1e9341d3b96455
 
-PODFILE CHECKSUM: 5e359cdf9bf53c2128ce15b2349da76149664d93
+PODFILE CHECKSUM: 9ab54be3b478a1f8523a17e38d1e3eb8feb34512
 
 COCOAPODS: 1.8.4

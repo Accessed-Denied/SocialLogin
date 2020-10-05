@@ -22,6 +22,7 @@
 		FA3F50B3251A45B900E86335 /* InstagramResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F50B2251A45B900E86335 /* InstagramResponse.swift */; };
 		FA3F50D1251E57F800E86335 /* API_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F50D0251E57F800E86335 /* API_Manager.swift */; };
 		FA4C7BA8252BA0CC0066D74C /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C7BA7252BA0CC0066D74C /* AppModel.swift */; };
+		FA4C7BAA252BA1E40066D74C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C7BA9252BA1E40066D74C /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		FA3F50B2251A45B900E86335 /* InstagramResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramResponse.swift; sourceTree = "<group>"; };
 		FA3F50D0251E57F800E86335 /* API_Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API_Manager.swift; sourceTree = "<group>"; };
 		FA4C7BA7252BA0CC0066D74C /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		FA4C7BA9252BA1E40066D74C /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 			children = (
 				FA3F50D0251E57F800E86335 /* API_Manager.swift */,
 				FA3F50A5251A352200E86335 /* InstagramAPI.swift */,
+				FA4C7BA9252BA1E40066D74C /* Utility.swift */,
 			);
 			path = "HTTP Utility";
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 			files = (
 				FA3F50D1251E57F800E86335 /* API_Manager.swift in Sources */,
 				FA3F50AC251A364600E86335 /* InstagramVC.swift in Sources */,
+				FA4C7BAA252BA1E40066D74C /* Utility.swift in Sources */,
 				FA3F50A6251A352200E86335 /* InstagramAPI.swift in Sources */,
 				FA4C7BA8252BA0CC0066D74C /* AppModel.swift in Sources */,
 				FA3F50AE251A382700E86335 /* HomeVC.swift in Sources */,
