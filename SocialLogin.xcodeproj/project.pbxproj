@@ -20,6 +20,7 @@
 		FA3F50AE251A382700E86335 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F50AD251A382700E86335 /* HomeVC.swift */; };
 		FA3F50B1251A3A5B00E86335 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3F50B0251A3A5B00E86335 /* WebKit.framework */; };
 		FA3F50B3251A45B900E86335 /* InstagramResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F50B2251A45B900E86335 /* InstagramResponse.swift */; };
+		FA3F50D1251E57F800E86335 /* API_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F50D0251E57F800E86335 /* API_Manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		FA3F50AD251A382700E86335 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		FA3F50B0251A3A5B00E86335 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		FA3F50B2251A45B900E86335 /* InstagramResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramResponse.swift; sourceTree = "<group>"; };
+		FA3F50D0251E57F800E86335 /* API_Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API_Manager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 		FA3F50AA251A361500E86335 /* HTTP Utility */ = {
 			isa = PBXGroup;
 			children = (
+				FA3F50D0251E57F800E86335 /* API_Manager.swift */,
 				FA3F50A5251A352200E86335 /* InstagramAPI.swift */,
 			);
 			path = "HTTP Utility";
@@ -173,7 +176,6 @@
 				000802E32F097BEACB27DD9E /* Pods-SocialLoginTests.debug.xcconfig */,
 				ECA0E9B78815FA080A735765 /* Pods-SocialLoginTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -188,6 +190,7 @@
 				FA3F507C2519F14300E86335 /* Sources */,
 				FA3F507D2519F14300E86335 /* Frameworks */,
 				FA3F507E2519F14300E86335 /* Resources */,
+				2CBAC899E9B829A5594878C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -276,6 +279,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2CBAC899E9B829A5594878C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocialLogin/Pods-SocialLogin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocialLogin/Pods-SocialLogin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocialLogin/Pods-SocialLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		DF56AF6B672AFD29C28499DD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3F50D1251E57F800E86335 /* API_Manager.swift in Sources */,
 				FA3F50AC251A364600E86335 /* InstagramVC.swift in Sources */,
 				FA3F50A6251A352200E86335 /* InstagramAPI.swift in Sources */,
 				FA3F50AE251A382700E86335 /* HomeVC.swift in Sources */,
