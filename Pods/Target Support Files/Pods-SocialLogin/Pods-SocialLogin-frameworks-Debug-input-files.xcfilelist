@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-SocialLogin/Pods-SocialLogin-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/SainiUtils/SainiUtils.framework
