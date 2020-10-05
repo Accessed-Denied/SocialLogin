@@ -8,6 +8,7 @@ target 'SocialLogin' do
   # Pods for SocialLogin
   pod 'Alamofire','4.9.1'
   pod 'SainiUtils'
+  pod 'Toaster'
 
   target 'SocialLoginTests' do
     inherit! :search_paths

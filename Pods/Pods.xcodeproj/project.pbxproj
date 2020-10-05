@@ -3,74 +3,91 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F5A8BFF398CB2903D3BD7F4AAF7EE6 /* ParameterEncoding.swift */; };
-		0CF2F294930079B8EDD41D266F740AB3 /* SainiUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F80D58DBBF93BD969773FFF13EB0CFB /* SainiUIImage.swift */; };
-		0EC98FC5DD9923C52F34E779BCAE43C4 /* SainiUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE919204ECDFC8A6B31B2A003A72B59 /* SainiUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		113E6A93D813D157FF4EC19E7AB7DF14 /* MyCircularSlider+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C04DAE58354906EC95B37755F6B4D8 /* MyCircularSlider+IB.swift */; };
-		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093ED64237404A8529FB1924BFE1F393 /* Notifications.swift */; };
-		18462EBBBB6B089C4D8AE245A007E600 /* SainiUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E915D79BB00EAD3A6EA6F569D2C9075A /* SainiUIViewController.swift */; };
-		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0247946DCE9965B0F1E96B720BA3C218 /* Alamofire-dummy.m */; };
-		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8843816959BE02959BDAC89A3E2D42C9 /* MultipartFormData.swift */; };
-		1AD8398CBFB73123FFD05F48A02B7FF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		24759E9C656E30DA3F83C8C791A89A65 /* SainiTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CAB383587CE6160C1F0803F6D02495 /* SainiTableView.swift */; };
-		283EEC177AF0A515EE52EDCAF2574E6F /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEE2DC79E89895657866F780E7BE8D0 /* FloatRatingView.swift */; };
-		2A2E44C8C62A1B4D8100F460F0015B86 /* SainiLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110B10272B62E04E4B4B09A3F42D1304 /* SainiLocationManager.swift */; };
-		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6092B2BD3E429E70ADBEF7EBC64E8F19 /* SessionDelegate.swift */; };
-		3099C198CA71A798A5A9875CF94F0327 /* MyDoubleHandleCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D636A957720CFE23343ADFB17CC0D84D /* MyDoubleHandleCircularSlider.swift */; };
-		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4D9DB52E8DD929D5BE53750F2F6B95 /* NetworkReachabilityManager.swift */; };
-		3DB4032F108DBD7F0E6EC8A66249A834 /* Pods-SocialLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 727ABC6EA635B9944C73BF95334568D0 /* Pods-SocialLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE63F7035C4F202706A3FE7D33F4CCC /* ParameterEncoding.swift */; };
+		0CF2F294930079B8EDD41D266F740AB3 /* SainiUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63BA71778DD1D2052B04AD92FDAC9AF /* SainiUIImage.swift */; };
+		0EC98FC5DD9923C52F34E779BCAE43C4 /* SainiUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA416F00FADE6DA9711D600449078E79 /* SainiUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		113E6A93D813D157FF4EC19E7AB7DF14 /* MyCircularSlider+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEE64F3BEF79DAC2E6FDC67B76E350B /* MyCircularSlider+IB.swift */; };
+		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BF12DC37B1FFEE6433D87F248EC93C /* Notifications.swift */; };
+		18462EBBBB6B089C4D8AE245A007E600 /* SainiUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA221B42AED944CB7794EF576805A65 /* SainiUIViewController.swift */; };
+		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFAE04A087FCA162B877973EDB73473 /* Alamofire-dummy.m */; };
+		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B138DFAE769E3784B9DBA174E09E95 /* MultipartFormData.swift */; };
+		1AD8398CBFB73123FFD05F48A02B7FF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		23AD9C846E8E67C7603CC09EC24A98F8 /* Toaster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5DAED22061AA9CF47F3319E08766AA3 /* Toaster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24759E9C656E30DA3F83C8C791A89A65 /* SainiTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252466759F3E432C85DDBC4D4AA4D341 /* SainiTableView.swift */; };
+		283EEC177AF0A515EE52EDCAF2574E6F /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F81AC004D4240B010C9A3D8CF996BD0 /* FloatRatingView.swift */; };
+		2A2E44C8C62A1B4D8100F460F0015B86 /* SainiLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6D72347FA20577A632BCD3CAC843B /* SainiLocationManager.swift */; };
+		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262D2DBB8CB5313E5CB15B271C107D5 /* SessionDelegate.swift */; };
+		3099C198CA71A798A5A9875CF94F0327 /* MyDoubleHandleCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ADC139577047868CA7C9D0B9E15BDC /* MyDoubleHandleCircularSlider.swift */; };
+		342A82732EB42E300EF63417F55E3C48 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEF4B618717B3376FA1EAFA4FCD7AA7 /* ToastView.swift */; };
+		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E655E08D7D1CC74C0237C89F498784 /* NetworkReachabilityManager.swift */; };
 		411275FB4FF6097148F86A3C8A22EA69 /* Pods-SocialLoginTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12E83C01E75911C643F638ECAFE19B09 /* Pods-SocialLoginTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A71BEBDC9DE4AE23789EF896DFDE616 /* DispatchQueueHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1FF15AFC3905E7C1FC2BD5E90016B4 /* DispatchQueueHelper.swift */; };
-		4B9075A9A068B012EAE1883869C34BB0 /* SainiString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F09D0046C43243883536B9B1D26030D /* SainiString.swift */; };
-		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D35BC897C20C6ECDA385420059266C /* Validation.swift */; };
-		56B2078F614292CB22F65D2AACCB7996 /* SainiShimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033634F2668DE2048E03030E4A70B618 /* SainiShimmer.swift */; };
-		5BC35FA94551CCB2558C85925874D5B3 /* SainiUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F99085CEDEFD038EC398BC1C6AE716 /* SainiUserDefaults.swift */; };
-		5D8E2B1DA5B13C5FA696042771E004A6 /* SainiCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555B92265BD59709C63B71B4698D234 /* SainiCodable.swift */; };
-		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8646949E0E81F267718095913F2A8 /* Result.swift */; };
-		653E41180E36853D79FB7F5D67B4125F /* SainiUITapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7538DE67DB30335684D1C500B22523BA /* SainiUITapGestureRecognizer.swift */; };
-		67D314CD85C7FE49B546377FD1EAE28B /* SainiUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC481D73B19A379E089A0C06FFA6D370 /* SainiUtility.swift */; };
-		6C01FB26F7CFB835F6C445627DCB2173 /* SainiUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4468DFA7A33F0FD3B2D5BE8F7F4E0B /* SainiUIColor.swift */; };
-		7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7C3DFF6023400849756FE429FDC99964 /* SainiThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = F281D5C97899DB2B029BB5F76497B197 /* SainiThread.swift */; };
-		80427852789646D315E3DB9EEC2F66E7 /* SainiUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDE15D930A83C12DF40720ED2E3B799 /* SainiUtils-dummy.m */; };
-		8320826E8BB8CB8D0BBC6B9BCA8AC017 /* MyCircularSliderHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B21CD284B555781C0E98530F3DDC8D /* MyCircularSliderHandle.swift */; };
-		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BD80A9D273CCFAEF10AD5BE204E147 /* AFError.swift */; };
-		8732C01F5AFB7ADF0C74275F0C99FEF0 /* SainiWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51958AC2BCDC06236CCB4C71D4FE7311 /* SainiWindow.swift */; };
-		8EA4D98C44243A42731D43998C8A747E /* MyDoubleHandleCircularSlider+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BA3465DA90FBCC0E440FA85C797294 /* MyDoubleHandleCircularSlider+IB.swift */; };
-		931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC7504C9DAE7A40995331E9DA3A8399 /* SessionManager.swift */; };
-		933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6319DC8A2258EB254912984C2422B463 /* Timeline.swift */; };
-		98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387CC466CE00F2BC11ACC9ED7C08EAE6 /* Request.swift */; };
-		A234F4C6BA01E6D388DF7446020BA854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A3084EAC4D4810B7116E36C96EFB6FEF /* SainiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC0FB2D9DF354EEE6CC299FA7B80AFF /* SainiData.swift */; };
-		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D9039099EBE4679D3DC37FE886CF90 /* TaskDelegate.swift */; };
-		B1655A3AE80AE1741CE0125BB246807B /* SainiUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB789FE8250C031986CBF4D19B60D7C /* SainiUITextField.swift */; };
-		BC8BC33F0761EBE75F6C0500223B3E3C /* SainiDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662498668D5DBC71BE14C4C0BA65E48 /* SainiDouble.swift */; };
-		BD19024F0E3E083440A130B3BB4059CA /* SainiUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A77795114ED4EFEE4297668906B7C1 /* SainiUIView.swift */; };
-		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E600AE1B58E9C92C1524BA5FAC4EAF99 /* Alamofire.swift */; };
-		C2B2469020EC7730D0C1941B7E70297F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C34324B49BBC4B92E483542135AC85B3 /* Pods-SocialLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A8AC8A1B7D02D9B55C4E6F2230AB60 /* Pods-SocialLogin-dummy.m */; };
-		C96936D6E4D3DFEF561B15C2A9929A03 /* SainiCGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69BC448D9FE20D8CC0A739F76721172 /* SainiCGFloat.swift */; };
-		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF7B55D917DDF57E409C41AC3AFFD12 /* DispatchQueue+Alamofire.swift */; };
-		D4860EAD9B96F0A9A9D9F5D25F999940 /* MyGradientCircularSlider+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702C425E1C51EFCEF1EFCD39F2E04D41 /* MyGradientCircularSlider+IB.swift */; };
-		D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B263FDA3CF68DB1ADE6632C9130A7F0 /* Response.swift */; };
-		E079D9CFC35C2409DB551F018EB64644 /* SainiAppContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EF316CBD99D4F8169DF963100A9E58 /* SainiAppContacts.swift */; };
-		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA75C3777445C254E195B5EA10F618C /* ResponseSerialization.swift */; };
-		E53D73B89D7DBD57D2B3338728781894 /* MyGradientCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E33A95CDBD0F86A353DB3A3B3A9B7 /* MyGradientCircularSlider.swift */; };
-		EAF8F550B551A086EB15FB97F18A3160 /* MyCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F15A1E5940D207020908DAADB81674 /* MyCircularSlider.swift */; };
+		4A71BEBDC9DE4AE23789EF896DFDE616 /* DispatchQueueHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FD6B6FCDEBDD56D0359E0B7FAB9B2F /* DispatchQueueHelper.swift */; };
+		4B9075A9A068B012EAE1883869C34BB0 /* SainiString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4A76BBE82A7C0A122E17C7E2F04BFF /* SainiString.swift */; };
+		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9865F16CCC02EF747A4B73EE7D9F1 /* Validation.swift */; };
+		56B2078F614292CB22F65D2AACCB7996 /* SainiShimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5869887BA148F1491C4F5B7E370C58 /* SainiShimmer.swift */; };
+		59C8A859BF0D96DD377BF07F47E69641 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		5BC35FA94551CCB2558C85925874D5B3 /* SainiUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DCEED0A5CC3F3883201EA1BD5184A8 /* SainiUserDefaults.swift */; };
+		5D8E2B1DA5B13C5FA696042771E004A6 /* SainiCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E05981CC25B61F8092A065D2AE7917 /* SainiCodable.swift */; };
+		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2947749BA87BFE17A979F48EB8D4CA /* Result.swift */; };
+		653E41180E36853D79FB7F5D67B4125F /* SainiUITapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E08E88DF275AD29EFBF3BADA34CF1BB /* SainiUITapGestureRecognizer.swift */; };
+		67D314CD85C7FE49B546377FD1EAE28B /* SainiUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90213CDC187F5FC87B2F0A3A58B5E95 /* SainiUtility.swift */; };
+		6A9222E25E20D0307062A4D0BE7F9F9F /* Pods-SocialLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 727ABC6EA635B9944C73BF95334568D0 /* Pods-SocialLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C01FB26F7CFB835F6C445627DCB2173 /* SainiUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810E2B4461E962319DA1834BFDDE8E92 /* SainiUIColor.swift */; };
+		7257AB9BF0CBDDBFF5C1658BFCEFD79D /* Pods-SocialLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A8AC8A1B7D02D9B55C4E6F2230AB60 /* Pods-SocialLogin-dummy.m */; };
+		75B329D48C0A3C90078D54E12F3545D1 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F931DE2F33186BEBAE7372026AED83 /* Toast.swift */; };
+		7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		7C3DFF6023400849756FE429FDC99964 /* SainiThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BCAC93B866458D016E1A3347601F82 /* SainiThread.swift */; };
+		80427852789646D315E3DB9EEC2F66E7 /* SainiUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6992AC129B1A7E482F89F2579920BB /* SainiUtils-dummy.m */; };
+		8320826E8BB8CB8D0BBC6B9BCA8AC017 /* MyCircularSliderHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9604926F6A444D4E5B3E64E928DA775D /* MyCircularSliderHandle.swift */; };
+		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA2A23BB710BD9232A4616B5F31DFE /* AFError.swift */; };
+		8732C01F5AFB7ADF0C74275F0C99FEF0 /* SainiWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE109EA9EAD773E35810AF63BB58EA /* SainiWindow.swift */; };
+		8A0A653CD9FAA128B349CF83F4B09345 /* ToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68A63792F098269C513059BA0BB46B2 /* ToastWindow.swift */; };
+		8D03B5706C51EFAB22148F8ABDAB7303 /* Toaster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D293943BF361CA6496DB96D8192C9C36 /* Toaster-dummy.m */; };
+		8EA4D98C44243A42731D43998C8A747E /* MyDoubleHandleCircularSlider+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD3F0E0F823EAE56DC9643F80720F4 /* MyDoubleHandleCircularSlider+IB.swift */; };
+		931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F889BCA12108141D9BEC24C6C08DEBA4 /* SessionManager.swift */; };
+		933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FE2F14F5268CD55A3E74AF3422831B /* Timeline.swift */; };
+		98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23BCF5DE5E2B4E9B72A2E39B4A92FF3 /* Request.swift */; };
+		A234F4C6BA01E6D388DF7446020BA854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		A3084EAC4D4810B7116E36C96EFB6FEF /* SainiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0BBA9C6C8D29EE5A6A00F7EDA58712 /* SainiData.swift */; };
+		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FF785FF014FB4260CBC463A217972 /* TaskDelegate.swift */; };
+		B1655A3AE80AE1741CE0125BB246807B /* SainiUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E0144C1A25502CDF78ECB86B08E5CB /* SainiUITextField.swift */; };
+		BC8BC33F0761EBE75F6C0500223B3E3C /* SainiDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D807802555D81FE74619D190B004C0F /* SainiDouble.swift */; };
+		BD19024F0E3E083440A130B3BB4059CA /* SainiUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B7D375EF176CEF95A748CCD83E699A /* SainiUIView.swift */; };
+		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069A803E879468C99BE1DB4D96DCA9AC /* Alamofire.swift */; };
+		BFA9AFACE094FAFDFF9B7E3A9DAA9B7E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */; };
+		C278931D70A95E1B62CF33DE431436DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */; };
+		C96936D6E4D3DFEF561B15C2A9929A03 /* SainiCGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0B7DBF608DD9C8548ABA5EB6DDC125 /* SainiCGFloat.swift */; };
+		CBC27F3832D11E3144CE31A52AEED38C /* Toaster.h in Headers */ = {isa = PBXBuildFile; fileRef = B3488ED25A2FF187ED5CD87FE9940D7E /* Toaster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747AAA97EB23B64453A780DB2042ABAC /* DispatchQueue+Alamofire.swift */; };
+		D4860EAD9B96F0A9A9D9F5D25F999940 /* MyGradientCircularSlider+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BD6B4E87ADD0801D95E7949DE01016 /* MyGradientCircularSlider+IB.swift */; };
+		D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF831989EFE5C992832BA068B7B106EB /* Response.swift */; };
+		E079D9CFC35C2409DB551F018EB64644 /* SainiAppContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1F359FA3D506B27590FFF400CDFA11 /* SainiAppContacts.swift */; };
+		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D527DA04B0222AC649022092A75100 /* ResponseSerialization.swift */; };
+		E53D73B89D7DBD57D2B3338728781894 /* MyGradientCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878AD634E2FD94C09C7BD6F1453248DA /* MyGradientCircularSlider.swift */; };
+		EAF8F550B551A086EB15FB97F18A3160 /* MyCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795439E6A128EF4507E836F27F789903 /* MyCircularSlider.swift */; };
+		EE2B76A1015936D3B867283CD72FB55E /* ToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F53B7F4B6A2F167FB3688E89F3D12C /* ToastCenter.swift */; };
 		F051737BA84723F98A66D43170E8B711 /* Pods-SocialLoginTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED81F57FDC9D7BD9DE8D562AD19B506C /* Pods-SocialLoginTests-dummy.m */; };
-		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1DF1E2F22B9C1B1C254C589DB83FEE /* ServerTrustPolicy.swift */; };
-		F1E3AE37B379F299B148E4B9FFD197E4 /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913DC0572F9DE4038CB6FB2BFE69CBB3 /* SweetAlert.swift */; };
-		F35F8DF2A2F24570853B89C12EC98DB4 /* SainiUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2493A70F9BAAA3C5112CC4B9774351B /* SainiUIImageView.swift */; };
-		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7DB894DEFA6D21AD0AAED687D322A65 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8F61C90AC3E89E4988600300B16A72A /* SainiDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B86333903759248D2BB6996F6AE49A /* SainiDate.swift */; };
-		FEFA677FE25A203A86E1D3319152A423 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906C66DC7F9BDAE4E6B36E30F60A5056 /* Logger.swift */; };
+		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D09C5B86503EC47B0AA2821DAC5320 /* ServerTrustPolicy.swift */; };
+		F1E3AE37B379F299B148E4B9FFD197E4 /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CB4F61F8AFAC78DA8F32F33447BB4D /* SweetAlert.swift */; };
+		F35F8DF2A2F24570853B89C12EC98DB4 /* SainiUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B628C9BC6325EBC6E1FBB1A94EAE9F /* SainiUIImageView.swift */; };
+		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F6C2583BA8C2284B2A2E311CB79B360 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8F61C90AC3E89E4988600300B16A72A /* SainiDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD6341045B10281E9B1316D0C7F3FA5 /* SainiDate.swift */; };
+		F8FF43E172B0F46B67DA80BD94F725C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		FEFA677FE25A203A86E1D3319152A423 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D27B10942E0BDF60C421E8F8740F06 /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		245D79D67C4501E85EE45248A24229B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
 		4271D5BC70A4643C56A8900A0E8953B8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -78,107 +95,121 @@
 			remoteGlobalIDString = C9BDD38D21B0EA4BBF0C12BC1C4B4001;
 			remoteInfo = "Pods-SocialLogin";
 		};
-		4D5C82A2BA9C023454BE1C688BAEDD12 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
-		};
-		E3E3D64E2A5A9B880DA37CDD3D41564D /* PBXContainerItemProxy */ = {
+		C3FF6180DB726963E5A17817814B6BF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CD36453E052079C9775CD395A253E2EF;
 			remoteInfo = SainiUtils;
 		};
+		D997500943937693929780DFA87BCD20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B90AB98A7BC6A346D671B36DB990DAC2;
+			remoteInfo = Toaster;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0247946DCE9965B0F1E96B720BA3C218 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		033634F2668DE2048E03030E4A70B618 /* SainiShimmer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiShimmer.swift; path = Source/Shimmer/SainiShimmer.swift; sourceTree = "<group>"; };
-		08BD80A9D273CCFAEF10AD5BE204E147 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		093ED64237404A8529FB1924BFE1F393 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		0F1E33A95CDBD0F86A353DB3A3B3A9B7 /* MyGradientCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyGradientCircularSlider.swift; path = Source/MyCircularSlider/MyGradientCircularSlider.swift; sourceTree = "<group>"; };
-		110B10272B62E04E4B4B09A3F42D1304 /* SainiLocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiLocationManager.swift; path = Source/SainiLocationManager.swift; sourceTree = "<group>"; };
+		069A803E879468C99BE1DB4D96DCA9AC /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		07B628C9BC6325EBC6E1FBB1A94EAE9F /* SainiUIImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUIImageView.swift; path = Source/SainiUIImageView.swift; sourceTree = "<group>"; };
+		09BF12DC37B1FFEE6433D87F248EC93C /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		0DEE64F3BEF79DAC2E6FDC67B76E350B /* MyCircularSlider+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MyCircularSlider+IB.swift"; path = "Source/MyCircularSlider/MyCircularSlider+IB.swift"; sourceTree = "<group>"; };
+		112331BFA81FBE27E93AFBBB1E0BDF8B /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		11B9865F16CCC02EF747A4B73EE7D9F1 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		12E83C01E75911C643F638ECAFE19B09 /* Pods-SocialLoginTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SocialLoginTests-umbrella.h"; sourceTree = "<group>"; };
-		17D35BC897C20C6ECDA385420059266C /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		1B263FDA3CF68DB1ADE6632C9130A7F0 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		207321BC1678BB1B5076E7498305DD53 /* SainiUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SainiUtils-prefix.pch"; sourceTree = "<group>"; };
+		13E05981CC25B61F8092A065D2AE7917 /* SainiCodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiCodable.swift; path = Source/SainiCodable.swift; sourceTree = "<group>"; };
+		16DE77AE66E58049214165C9842625E4 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		18AD3F0E0F823EAE56DC9643F80720F4 /* MyDoubleHandleCircularSlider+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MyDoubleHandleCircularSlider+IB.swift"; path = "Source/MyCircularSlider/MyDoubleHandleCircularSlider+IB.swift"; sourceTree = "<group>"; };
+		1D6992AC129B1A7E482F89F2579920BB /* SainiUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SainiUtils-dummy.m"; sourceTree = "<group>"; };
+		1E4325019443680A43ACA9EB757C661A /* Toaster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Toaster.modulemap; sourceTree = "<group>"; };
+		1F0BBA9C6C8D29EE5A6A00F7EDA58712 /* SainiData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiData.swift; path = Source/SainiData.swift; sourceTree = "<group>"; };
+		2262D2DBB8CB5313E5CB15B271C107D5 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		252466759F3E432C85DDBC4D4AA4D341 /* SainiTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiTableView.swift; path = Source/SainiTableView.swift; sourceTree = "<group>"; };
 		26CB598487002BAD9FAC86DD88A54D91 /* Pods-SocialLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialLoginTests.release.xcconfig"; sourceTree = "<group>"; };
-		2D275A2CDEF7D0A6F2164DCC027960F8 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		2EC0FB2D9DF354EEE6CC299FA7B80AFF /* SainiData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiData.swift; path = Source/SainiData.swift; sourceTree = "<group>"; };
-		2F80D58DBBF93BD969773FFF13EB0CFB /* SainiUIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUIImage.swift; path = Source/SainiUIImage.swift; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		33F5A8BFF398CB2903D3BD7F4AAF7EE6 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		387CC466CE00F2BC11ACC9ED7C08EAE6 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		36FD6B6FCDEBDD56D0359E0B7FAB9B2F /* DispatchQueueHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchQueueHelper.swift; path = Source/SysLogger/DispatchQueueHelper.swift; sourceTree = "<group>"; };
+		38ADC139577047868CA7C9D0B9E15BDC /* MyDoubleHandleCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyDoubleHandleCircularSlider.swift; path = Source/MyCircularSlider/MyDoubleHandleCircularSlider.swift; sourceTree = "<group>"; };
+		39DCEED0A5CC3F3883201EA1BD5184A8 /* SainiUserDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUserDefaults.swift; path = Source/SainiUserDefaults.swift; sourceTree = "<group>"; };
 		39E520DEF956C95906A5BDEC30D21198 /* Pods-SocialLoginTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocialLoginTests-Info.plist"; sourceTree = "<group>"; };
-		3F4D9DB52E8DD929D5BE53750F2F6B95 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		3F98DD19DD0C94D38144E67AAEBF464F /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		43A8AC8A1B7D02D9B55C4E6F2230AB60 /* Pods-SocialLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SocialLogin-dummy.m"; sourceTree = "<group>"; };
-		44C04DAE58354906EC95B37755F6B4D8 /* MyCircularSlider+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MyCircularSlider+IB.swift"; path = "Source/MyCircularSlider/MyCircularSlider+IB.swift"; sourceTree = "<group>"; };
-		50BA3465DA90FBCC0E440FA85C797294 /* MyDoubleHandleCircularSlider+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MyDoubleHandleCircularSlider+IB.swift"; path = "Source/MyCircularSlider/MyDoubleHandleCircularSlider+IB.swift"; sourceTree = "<group>"; };
+		49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4E08E88DF275AD29EFBF3BADA34CF1BB /* SainiUITapGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUITapGestureRecognizer.swift; path = Source/SainiUITapGestureRecognizer.swift; sourceTree = "<group>"; };
+		50CB4F61F8AFAC78DA8F32F33447BB4D /* SweetAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SweetAlert.swift; path = Source/SweetAlert.swift; sourceTree = "<group>"; };
 		5107BCF9383DCF3AED1EDAC8A44DE9A4 /* Pods-SocialLogin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SocialLogin-frameworks.sh"; sourceTree = "<group>"; };
-		51958AC2BCDC06236CCB4C71D4FE7311 /* SainiWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiWindow.swift; path = Source/SainiWindow.swift; sourceTree = "<group>"; };
+		52047209F43069607BF67329F8043B94 /* SainiUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SainiUtils.xcconfig; sourceTree = "<group>"; };
+		54F931DE2F33186BEBAE7372026AED83 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Sources/Toast.swift; sourceTree = "<group>"; };
+		59A4F932B7FF5AFF4C3A6EEC0137E874 /* Toaster-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Toaster-Info.plist"; sourceTree = "<group>"; };
 		5C00C122AA944AE0423C1D7DC2234CF0 /* Pods_SocialLoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SocialLoginTests.framework; path = "Pods-SocialLoginTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C4468DFA7A33F0FD3B2D5BE8F7F4E0B /* SainiUIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUIColor.swift; path = Source/SainiUIColor.swift; sourceTree = "<group>"; };
 		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F09D0046C43243883536B9B1D26030D /* SainiString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiString.swift; path = Source/SainiString.swift; sourceTree = "<group>"; };
-		6092B2BD3E429E70ADBEF7EBC64E8F19 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		62442D4AA9F65B67A5B67CA1934B7641 /* SainiUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SainiUtils.xcconfig; sourceTree = "<group>"; };
-		6319DC8A2258EB254912984C2422B463 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		63A77795114ED4EFEE4297668906B7C1 /* SainiUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUIView.swift; path = Source/SainiUIView.swift; sourceTree = "<group>"; };
-		674C533B058A1992706341E1DA23356C /* SainiUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SainiUtils-Info.plist"; sourceTree = "<group>"; };
-		68B86333903759248D2BB6996F6AE49A /* SainiDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiDate.swift; path = Source/SainiDate.swift; sourceTree = "<group>"; };
+		5E0B7DBF608DD9C8548ABA5EB6DDC125 /* SainiCGFloat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiCGFloat.swift; path = Source/SainiCGFloat.swift; sourceTree = "<group>"; };
+		5E2FAC99EB97DB6CBDE1E070089A9F92 /* Toaster.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toaster.xcconfig; sourceTree = "<group>"; };
 		6C669903356B72828F818BE67ABAC935 /* SainiUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SainiUtils.framework; path = SainiUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CC0D6057FDB1F252FD9481048FB366E /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
-		6EB789FE8250C031986CBF4D19B60D7C /* SainiUITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUITextField.swift; path = Source/SainiUITextField.swift; sourceTree = "<group>"; };
-		6F1DF1E2F22B9C1B1C254C589DB83FEE /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		702C425E1C51EFCEF1EFCD39F2E04D41 /* MyGradientCircularSlider+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MyGradientCircularSlider+IB.swift"; path = "Source/MyCircularSlider/MyGradientCircularSlider+IB.swift"; sourceTree = "<group>"; };
+		6F81AC004D4240B010C9A3D8CF996BD0 /* FloatRatingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatRatingView.swift; path = Source/FloatRatingView.swift; sourceTree = "<group>"; };
 		727ABC6EA635B9944C73BF95334568D0 /* Pods-SocialLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SocialLogin-umbrella.h"; sourceTree = "<group>"; };
-		7538DE67DB30335684D1C500B22523BA /* SainiUITapGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUITapGestureRecognizer.swift; path = Source/SainiUITapGestureRecognizer.swift; sourceTree = "<group>"; };
-		7E9B36CE1EF72E036AC36C3E9E6210AF /* SainiUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SainiUtils.modulemap; sourceTree = "<group>"; };
-		801CD953EA04D1FDB44B4BB7FB0F9F5C /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		8843816959BE02959BDAC89A3E2D42C9 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		8DF7B55D917DDF57E409C41AC3AFFD12 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		8E1FF15AFC3905E7C1FC2BD5E90016B4 /* DispatchQueueHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchQueueHelper.swift; path = Source/SysLogger/DispatchQueueHelper.swift; sourceTree = "<group>"; };
-		906C66DC7F9BDAE4E6B36E30F60A5056 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Source/SysLogger/Logger.swift; sourceTree = "<group>"; };
-		913DC0572F9DE4038CB6FB2BFE69CBB3 /* SweetAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SweetAlert.swift; path = Source/SweetAlert.swift; sourceTree = "<group>"; };
-		91CAB383587CE6160C1F0803F6D02495 /* SainiTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiTableView.swift; path = Source/SainiTableView.swift; sourceTree = "<group>"; };
+		72E0144C1A25502CDF78ECB86B08E5CB /* SainiUITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUITextField.swift; path = Source/SainiUITextField.swift; sourceTree = "<group>"; };
+		747AAA97EB23B64453A780DB2042ABAC /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		75A0D2F18678676B90EA86C0E7DC0117 /* Toaster-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toaster-prefix.pch"; sourceTree = "<group>"; };
+		795439E6A128EF4507E836F27F789903 /* MyCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyCircularSlider.swift; path = Source/MyCircularSlider/MyCircularSlider.swift; sourceTree = "<group>"; };
+		810E2B4461E962319DA1834BFDDE8E92 /* SainiUIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUIColor.swift; path = Source/SainiUIColor.swift; sourceTree = "<group>"; };
+		84AA2A23BB710BD9232A4616B5F31DFE /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		84B6D72347FA20577A632BCD3CAC843B /* SainiLocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiLocationManager.swift; path = Source/SainiLocationManager.swift; sourceTree = "<group>"; };
+		86BCAC93B866458D016E1A3347601F82 /* SainiThread.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiThread.swift; path = Source/SainiThread.swift; sourceTree = "<group>"; };
+		878AD634E2FD94C09C7BD6F1453248DA /* MyGradientCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyGradientCircularSlider.swift; path = Source/MyCircularSlider/MyGradientCircularSlider.swift; sourceTree = "<group>"; };
+		8D807802555D81FE74619D190B004C0F /* SainiDouble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiDouble.swift; path = Source/SainiDouble.swift; sourceTree = "<group>"; };
+		8F6C2583BA8C2284B2A2E311CB79B360 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		8FA0DF806F08CD58CF8EE0BD7DC0CC81 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		92FE2F14F5268CD55A3E74AF3422831B /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		9508CC4BBC02BF915A2165C7E29F5FF4 /* Pods-SocialLogin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SocialLogin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9593FA44560F25297065561E0A2F38D4 /* Pods-SocialLoginTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SocialLoginTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9CE919204ECDFC8A6B31B2A003A72B59 /* SainiUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SainiUtils-umbrella.h"; sourceTree = "<group>"; };
+		9604926F6A444D4E5B3E64E928DA775D /* MyCircularSliderHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyCircularSliderHandle.swift; path = Source/MyCircularSlider/MyCircularSliderHandle.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DDE15D930A83C12DF40720ED2E3B799 /* SainiUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SainiUtils-dummy.m"; sourceTree = "<group>"; };
-		A16CFAED2AE3010ECED5FBC1EB3D321C /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		A7DB894DEFA6D21AD0AAED687D322A65 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		A0BD6B4E87ADD0801D95E7949DE01016 /* MyGradientCircularSlider+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MyGradientCircularSlider+IB.swift"; path = "Source/MyCircularSlider/MyGradientCircularSlider+IB.swift"; sourceTree = "<group>"; };
+		A23BCF5DE5E2B4E9B72A2E39B4A92FF3 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		AA416F00FADE6DA9711D600449078E79 /* SainiUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SainiUtils-umbrella.h"; sourceTree = "<group>"; };
 		ADA80C692D44A2A1873E168584955152 /* Pods-SocialLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialLogin.debug.xcconfig"; sourceTree = "<group>"; };
-		B555B92265BD59709C63B71B4698D234 /* SainiCodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiCodable.swift; path = Source/SainiCodable.swift; sourceTree = "<group>"; };
-		B69BC448D9FE20D8CC0A739F76721172 /* SainiCGFloat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiCGFloat.swift; path = Source/SainiCGFloat.swift; sourceTree = "<group>"; };
+		AEEF4B618717B3376FA1EAFA4FCD7AA7 /* ToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastView.swift; path = Sources/ToastView.swift; sourceTree = "<group>"; };
+		B12FF785FF014FB4260CBC463A217972 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		B3488ED25A2FF187ED5CD87FE9940D7E /* Toaster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Toaster.h; path = Sources/Toaster.h; sourceTree = "<group>"; };
+		B3B138DFAE769E3784B9DBA174E09E95 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		B4F53B7F4B6A2F167FB3688E89F3D12C /* ToastCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastCenter.swift; path = Sources/ToastCenter.swift; sourceTree = "<group>"; };
 		B7853765D7E5892FDEAA25848F75F583 /* Pods_SocialLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SocialLogin.framework; path = "Pods-SocialLogin.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0DA190B408367CEE8E00D13C7F4C02 /* Pods-SocialLogin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocialLogin-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA4A76BBE82A7C0A122E17C7E2F04BFF /* SainiString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiString.swift; path = Source/SainiString.swift; sourceTree = "<group>"; };
+		BB1F359FA3D506B27590FFF400CDFA11 /* SainiAppContacts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiAppContacts.swift; path = Source/SainiAppContacts.swift; sourceTree = "<group>"; };
 		BBA4D596604E5897E8B53B14212CDA4E /* Pods-SocialLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialLogin.release.xcconfig"; sourceTree = "<group>"; };
-		BC481D73B19A379E089A0C06FFA6D370 /* SainiUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUtility.swift; path = Source/SainiUtility.swift; sourceTree = "<group>"; };
-		C4F15A1E5940D207020908DAADB81674 /* MyCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyCircularSlider.swift; path = Source/MyCircularSlider/MyCircularSlider.swift; sourceTree = "<group>"; };
-		C4F99085CEDEFD038EC398BC1C6AE716 /* SainiUserDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUserDefaults.swift; path = Source/SainiUserDefaults.swift; sourceTree = "<group>"; };
-		C662498668D5DBC71BE14C4C0BA65E48 /* SainiDouble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiDouble.swift; path = Source/SainiDouble.swift; sourceTree = "<group>"; };
-		CBF8646949E0E81F267718095913F2A8 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		CCC7504C9DAE7A40995331E9DA3A8399 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		BD810337F4A305D60D9250A197AA1EF1 /* Toaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toaster.framework; path = Toaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE63F7035C4F202706A3FE7D33F4CCC /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		C1E655E08D7D1CC74C0237C89F498784 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		C2D527DA04B0222AC649022092A75100 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		C5DAED22061AA9CF47F3319E08766AA3 /* Toaster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toaster-umbrella.h"; sourceTree = "<group>"; };
+		C63BA71778DD1D2052B04AD92FDAC9AF /* SainiUIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUIImage.swift; path = Source/SainiUIImage.swift; sourceTree = "<group>"; };
+		C6B7D375EF176CEF95A748CCD83E699A /* SainiUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUIView.swift; path = Source/SainiUIView.swift; sourceTree = "<group>"; };
+		C6D09C5B86503EC47B0AA2821DAC5320 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		CDA7177D01A6CA5A6D5219922738A326 /* Pods-SocialLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SocialLogin.modulemap"; sourceTree = "<group>"; };
+		CDD6341045B10281E9B1316D0C7F3FA5 /* SainiDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiDate.swift; path = Source/SainiDate.swift; sourceTree = "<group>"; };
 		CECBAEDB86F3E871713CF03E1BF027C0 /* Pods-SocialLoginTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocialLoginTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CFA75C3777445C254E195B5EA10F618C /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		D2493A70F9BAAA3C5112CC4B9774351B /* SainiUIImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUIImageView.swift; path = Source/SainiUIImageView.swift; sourceTree = "<group>"; };
-		D636A957720CFE23343ADFB17CC0D84D /* MyDoubleHandleCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyDoubleHandleCircularSlider.swift; path = Source/MyCircularSlider/MyDoubleHandleCircularSlider.swift; sourceTree = "<group>"; };
+		CF5869887BA148F1491C4F5B7E370C58 /* SainiShimmer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiShimmer.swift; path = Source/Shimmer/SainiShimmer.swift; sourceTree = "<group>"; };
+		CFA221B42AED944CB7794EF576805A65 /* SainiUIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUIViewController.swift; path = Source/SainiUIViewController.swift; sourceTree = "<group>"; };
+		D293943BF361CA6496DB96D8192C9C36 /* Toaster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toaster-dummy.m"; sourceTree = "<group>"; };
+		D68A63792F098269C513059BA0BB46B2 /* ToastWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastWindow.swift; path = Sources/ToastWindow.swift; sourceTree = "<group>"; };
 		D9206880E6526B6C6967910E4D66A7F9 /* Pods-SocialLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocialLogin-Info.plist"; sourceTree = "<group>"; };
-		E2EF316CBD99D4F8169DF963100A9E58 /* SainiAppContacts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiAppContacts.swift; path = Source/SainiAppContacts.swift; sourceTree = "<group>"; };
-		E5B21CD284B555781C0E98530F3DDC8D /* MyCircularSliderHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyCircularSliderHandle.swift; path = Source/MyCircularSlider/MyCircularSliderHandle.swift; sourceTree = "<group>"; };
-		E600AE1B58E9C92C1524BA5FAC4EAF99 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		E915D79BB00EAD3A6EA6F569D2C9075A /* SainiUIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUIViewController.swift; path = Source/SainiUIViewController.swift; sourceTree = "<group>"; };
+		DD2947749BA87BFE17A979F48EB8D4CA /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		DDBE109EA9EAD773E35810AF63BB58EA /* SainiWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiWindow.swift; path = Source/SainiWindow.swift; sourceTree = "<group>"; };
+		DF831989EFE5C992832BA068B7B106EB /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		E5023A02F34E8B8B59C388318AA29040 /* SainiUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SainiUtils.modulemap; sourceTree = "<group>"; };
+		E90213CDC187F5FC87B2F0A3A58B5E95 /* SainiUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUtility.swift; path = Source/SainiUtility.swift; sourceTree = "<group>"; };
 		ED81F57FDC9D7BD9DE8D562AD19B506C /* Pods-SocialLoginTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SocialLoginTests-dummy.m"; sourceTree = "<group>"; };
-		F281D5C97899DB2B029BB5F76497B197 /* SainiThread.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiThread.swift; path = Source/SainiThread.swift; sourceTree = "<group>"; };
-		F2D9039099EBE4679D3DC37FE886CF90 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		EDFAE04A087FCA162B877973EDB73473 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		F098102B0DE411EB4178B832EC84D877 /* SainiUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SainiUtils-prefix.pch"; sourceTree = "<group>"; };
+		F0C2ECDB114C7505F90E914A2CB78C00 /* SainiUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SainiUtils-Info.plist"; sourceTree = "<group>"; };
 		F5E5E9AA3A30997C918A86A2DB134E6D /* Pods-SocialLoginTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SocialLoginTests.modulemap"; sourceTree = "<group>"; };
+		F6D27B10942E0BDF60C421E8F8740F06 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Source/SysLogger/Logger.swift; sourceTree = "<group>"; };
+		F889BCA12108141D9BEC24C6C08DEBA4 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		FC8CDA8095B63BB3510FEC1841E931E7 /* Pods-SocialLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
-		FEEE2DC79E89895657866F780E7BE8D0 /* FloatRatingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatRatingView.swift; path = Source/FloatRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,11 +221,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C030702AFE15F1BE517A480A9DFA0BD /* Frameworks */ = {
+		5F39F965219C507B7E04F46E86B02FE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2B2469020EC7730D0C1941B7E70297F /* Foundation.framework in Frameworks */,
+				F8FF43E172B0F46B67DA80BD94F725C2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +234,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AD8398CBFB73123FFD05F48A02B7FF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6038795C21DE8E937C131A272900FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C8A859BF0D96DD377BF07F47E69641 /* Foundation.framework in Frameworks */,
+				BFA9AFACE094FAFDFF9B7E3A9DAA9B7E /* QuartzCore.framework in Frameworks */,
+				C278931D70A95E1B62CF33DE431436DE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,24 +258,107 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		160D7BCE7B20B39C8C87997F02E5D05F /* Pods */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				87E403AAA70A8430D839053749764D19 /* Alamofire */,
-				AC053973E4001BF7DF5DD7187D389960 /* SainiUtils */,
+				C18BABFF9523A33465B5A91496FF0C3D /* iOS */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4CB3C6716A632FA249D1BE3157C38FDA /* Products */ = {
+		055EFEFEF0729F13E3DE1C2ECBF45534 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E4325019443680A43ACA9EB757C661A /* Toaster.modulemap */,
+				5E2FAC99EB97DB6CBDE1E070089A9F92 /* Toaster.xcconfig */,
+				D293943BF361CA6496DB96D8192C9C36 /* Toaster-dummy.m */,
+				59A4F932B7FF5AFF4C3A6EEC0137E874 /* Toaster-Info.plist */,
+				75A0D2F18678676B90EA86C0E7DC0117 /* Toaster-prefix.pch */,
+				C5DAED22061AA9CF47F3319E08766AA3 /* Toaster-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toaster";
+			sourceTree = "<group>";
+		};
+		119F54B6970DAF75E2A7A28076F3D9AE /* SainiUtils */ = {
+			isa = PBXGroup;
+			children = (
+				36FD6B6FCDEBDD56D0359E0B7FAB9B2F /* DispatchQueueHelper.swift */,
+				6F81AC004D4240B010C9A3D8CF996BD0 /* FloatRatingView.swift */,
+				F6D27B10942E0BDF60C421E8F8740F06 /* Logger.swift */,
+				795439E6A128EF4507E836F27F789903 /* MyCircularSlider.swift */,
+				0DEE64F3BEF79DAC2E6FDC67B76E350B /* MyCircularSlider+IB.swift */,
+				9604926F6A444D4E5B3E64E928DA775D /* MyCircularSliderHandle.swift */,
+				38ADC139577047868CA7C9D0B9E15BDC /* MyDoubleHandleCircularSlider.swift */,
+				18AD3F0E0F823EAE56DC9643F80720F4 /* MyDoubleHandleCircularSlider+IB.swift */,
+				878AD634E2FD94C09C7BD6F1453248DA /* MyGradientCircularSlider.swift */,
+				A0BD6B4E87ADD0801D95E7949DE01016 /* MyGradientCircularSlider+IB.swift */,
+				BB1F359FA3D506B27590FFF400CDFA11 /* SainiAppContacts.swift */,
+				5E0B7DBF608DD9C8548ABA5EB6DDC125 /* SainiCGFloat.swift */,
+				13E05981CC25B61F8092A065D2AE7917 /* SainiCodable.swift */,
+				1F0BBA9C6C8D29EE5A6A00F7EDA58712 /* SainiData.swift */,
+				CDD6341045B10281E9B1316D0C7F3FA5 /* SainiDate.swift */,
+				8D807802555D81FE74619D190B004C0F /* SainiDouble.swift */,
+				84B6D72347FA20577A632BCD3CAC843B /* SainiLocationManager.swift */,
+				CF5869887BA148F1491C4F5B7E370C58 /* SainiShimmer.swift */,
+				BA4A76BBE82A7C0A122E17C7E2F04BFF /* SainiString.swift */,
+				252466759F3E432C85DDBC4D4AA4D341 /* SainiTableView.swift */,
+				86BCAC93B866458D016E1A3347601F82 /* SainiThread.swift */,
+				810E2B4461E962319DA1834BFDDE8E92 /* SainiUIColor.swift */,
+				C63BA71778DD1D2052B04AD92FDAC9AF /* SainiUIImage.swift */,
+				07B628C9BC6325EBC6E1FBB1A94EAE9F /* SainiUIImageView.swift */,
+				4E08E88DF275AD29EFBF3BADA34CF1BB /* SainiUITapGestureRecognizer.swift */,
+				72E0144C1A25502CDF78ECB86B08E5CB /* SainiUITextField.swift */,
+				C6B7D375EF176CEF95A748CCD83E699A /* SainiUIView.swift */,
+				CFA221B42AED944CB7794EF576805A65 /* SainiUIViewController.swift */,
+				39DCEED0A5CC3F3883201EA1BD5184A8 /* SainiUserDefaults.swift */,
+				E90213CDC187F5FC87B2F0A3A58B5E95 /* SainiUtility.swift */,
+				DDBE109EA9EAD773E35810AF63BB58EA /* SainiWindow.swift */,
+				50CB4F61F8AFAC78DA8F32F33447BB4D /* SweetAlert.swift */,
+				707B05B6CF5FA5EAECC13BF747679CB5 /* Support Files */,
+			);
+			name = SainiUtils;
+			path = SainiUtils;
+			sourceTree = "<group>";
+		};
+		1BAFC306E69D960F1DD807A603520B30 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
 				B7853765D7E5892FDEAA25848F75F583 /* Pods_SocialLogin.framework */,
 				5C00C122AA944AE0423C1D7DC2234CF0 /* Pods_SocialLoginTests.framework */,
 				6C669903356B72828F818BE67ABAC935 /* SainiUtils.framework */,
+				BD810337F4A305D60D9250A197AA1EF1 /* Toaster.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4D9F078F6D4900C2AACC5F2E6A715075 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F98DD19DD0C94D38144E67AAEBF464F /* Alamofire.modulemap */,
+				112331BFA81FBE27E93AFBBB1E0BDF8B /* Alamofire.xcconfig */,
+				EDFAE04A087FCA162B877973EDB73473 /* Alamofire-dummy.m */,
+				8FA0DF806F08CD58CF8EE0BD7DC0CC81 /* Alamofire-Info.plist */,
+				16DE77AE66E58049214165C9842625E4 /* Alamofire-prefix.pch */,
+				8F6C2583BA8C2284B2A2E311CB79B360 /* Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		707B05B6CF5FA5EAECC13BF747679CB5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5023A02F34E8B8B59C388318AA29040 /* SainiUtils.modulemap */,
+				52047209F43069607BF67329F8043B94 /* SainiUtils.xcconfig */,
+				1D6992AC129B1A7E482F89F2579920BB /* SainiUtils-dummy.m */,
+				F0C2ECDB114C7505F90E914A2CB78C00 /* SainiUtils-Info.plist */,
+				F098102B0DE411EB4178B832EC84D877 /* SainiUtils-prefix.pch */,
+				AA416F00FADE6DA9711D600449078E79 /* SainiUtils-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SainiUtils";
 			sourceTree = "<group>";
 		};
 		7DD3EF0912A77216E20F8B18C8DD634F /* Pods-SocialLoginTests */ = {
@@ -253,27 +377,27 @@
 			path = "Target Support Files/Pods-SocialLoginTests";
 			sourceTree = "<group>";
 		};
-		87E403AAA70A8430D839053749764D19 /* Alamofire */ = {
+		9DB586515079467128160E0F369F2C7C /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				08BD80A9D273CCFAEF10AD5BE204E147 /* AFError.swift */,
-				E600AE1B58E9C92C1524BA5FAC4EAF99 /* Alamofire.swift */,
-				8DF7B55D917DDF57E409C41AC3AFFD12 /* DispatchQueue+Alamofire.swift */,
-				8843816959BE02959BDAC89A3E2D42C9 /* MultipartFormData.swift */,
-				3F4D9DB52E8DD929D5BE53750F2F6B95 /* NetworkReachabilityManager.swift */,
-				093ED64237404A8529FB1924BFE1F393 /* Notifications.swift */,
-				33F5A8BFF398CB2903D3BD7F4AAF7EE6 /* ParameterEncoding.swift */,
-				387CC466CE00F2BC11ACC9ED7C08EAE6 /* Request.swift */,
-				1B263FDA3CF68DB1ADE6632C9130A7F0 /* Response.swift */,
-				CFA75C3777445C254E195B5EA10F618C /* ResponseSerialization.swift */,
-				CBF8646949E0E81F267718095913F2A8 /* Result.swift */,
-				6F1DF1E2F22B9C1B1C254C589DB83FEE /* ServerTrustPolicy.swift */,
-				6092B2BD3E429E70ADBEF7EBC64E8F19 /* SessionDelegate.swift */,
-				CCC7504C9DAE7A40995331E9DA3A8399 /* SessionManager.swift */,
-				F2D9039099EBE4679D3DC37FE886CF90 /* TaskDelegate.swift */,
-				6319DC8A2258EB254912984C2422B463 /* Timeline.swift */,
-				17D35BC897C20C6ECDA385420059266C /* Validation.swift */,
-				AEE30778B8A5638B1F4D4ECE4F1976DC /* Support Files */,
+				84AA2A23BB710BD9232A4616B5F31DFE /* AFError.swift */,
+				069A803E879468C99BE1DB4D96DCA9AC /* Alamofire.swift */,
+				747AAA97EB23B64453A780DB2042ABAC /* DispatchQueue+Alamofire.swift */,
+				B3B138DFAE769E3784B9DBA174E09E95 /* MultipartFormData.swift */,
+				C1E655E08D7D1CC74C0237C89F498784 /* NetworkReachabilityManager.swift */,
+				09BF12DC37B1FFEE6433D87F248EC93C /* Notifications.swift */,
+				BEE63F7035C4F202706A3FE7D33F4CCC /* ParameterEncoding.swift */,
+				A23BCF5DE5E2B4E9B72A2E39B4A92FF3 /* Request.swift */,
+				DF831989EFE5C992832BA068B7B106EB /* Response.swift */,
+				C2D527DA04B0222AC649022092A75100 /* ResponseSerialization.swift */,
+				DD2947749BA87BFE17A979F48EB8D4CA /* Result.swift */,
+				C6D09C5B86503EC47B0AA2821DAC5320 /* ServerTrustPolicy.swift */,
+				2262D2DBB8CB5313E5CB15B271C107D5 /* SessionDelegate.swift */,
+				F889BCA12108141D9BEC24C6C08DEBA4 /* SessionManager.swift */,
+				B12FF785FF014FB4260CBC463A217972 /* TaskDelegate.swift */,
+				92FE2F14F5268CD55A3E74AF3422831B /* Timeline.swift */,
+				11B9865F16CCC02EF747A4B73EE7D9F1 /* Validation.swift */,
+				4D9F078F6D4900C2AACC5F2E6A715075 /* Support Files */,
 			);
 			name = Alamofire;
 			path = Alamofire;
@@ -288,100 +412,49 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		ABD85C2C4CBF8529270324E61966A1D1 /* Support Files */ = {
+		C18BABFF9523A33465B5A91496FF0C3D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7E9B36CE1EF72E036AC36C3E9E6210AF /* SainiUtils.modulemap */,
-				62442D4AA9F65B67A5B67CA1934B7641 /* SainiUtils.xcconfig */,
-				9DDE15D930A83C12DF40720ED2E3B799 /* SainiUtils-dummy.m */,
-				674C533B058A1992706341E1DA23356C /* SainiUtils-Info.plist */,
-				207321BC1678BB1B5076E7498305DD53 /* SainiUtils-prefix.pch */,
-				9CE919204ECDFC8A6B31B2A003A72B59 /* SainiUtils-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SainiUtils";
-			sourceTree = "<group>";
-		};
-		AC053973E4001BF7DF5DD7187D389960 /* SainiUtils */ = {
-			isa = PBXGroup;
-			children = (
-				8E1FF15AFC3905E7C1FC2BD5E90016B4 /* DispatchQueueHelper.swift */,
-				FEEE2DC79E89895657866F780E7BE8D0 /* FloatRatingView.swift */,
-				906C66DC7F9BDAE4E6B36E30F60A5056 /* Logger.swift */,
-				C4F15A1E5940D207020908DAADB81674 /* MyCircularSlider.swift */,
-				44C04DAE58354906EC95B37755F6B4D8 /* MyCircularSlider+IB.swift */,
-				E5B21CD284B555781C0E98530F3DDC8D /* MyCircularSliderHandle.swift */,
-				D636A957720CFE23343ADFB17CC0D84D /* MyDoubleHandleCircularSlider.swift */,
-				50BA3465DA90FBCC0E440FA85C797294 /* MyDoubleHandleCircularSlider+IB.swift */,
-				0F1E33A95CDBD0F86A353DB3A3B3A9B7 /* MyGradientCircularSlider.swift */,
-				702C425E1C51EFCEF1EFCD39F2E04D41 /* MyGradientCircularSlider+IB.swift */,
-				E2EF316CBD99D4F8169DF963100A9E58 /* SainiAppContacts.swift */,
-				B69BC448D9FE20D8CC0A739F76721172 /* SainiCGFloat.swift */,
-				B555B92265BD59709C63B71B4698D234 /* SainiCodable.swift */,
-				2EC0FB2D9DF354EEE6CC299FA7B80AFF /* SainiData.swift */,
-				68B86333903759248D2BB6996F6AE49A /* SainiDate.swift */,
-				C662498668D5DBC71BE14C4C0BA65E48 /* SainiDouble.swift */,
-				110B10272B62E04E4B4B09A3F42D1304 /* SainiLocationManager.swift */,
-				033634F2668DE2048E03030E4A70B618 /* SainiShimmer.swift */,
-				5F09D0046C43243883536B9B1D26030D /* SainiString.swift */,
-				91CAB383587CE6160C1F0803F6D02495 /* SainiTableView.swift */,
-				F281D5C97899DB2B029BB5F76497B197 /* SainiThread.swift */,
-				5C4468DFA7A33F0FD3B2D5BE8F7F4E0B /* SainiUIColor.swift */,
-				2F80D58DBBF93BD969773FFF13EB0CFB /* SainiUIImage.swift */,
-				D2493A70F9BAAA3C5112CC4B9774351B /* SainiUIImageView.swift */,
-				7538DE67DB30335684D1C500B22523BA /* SainiUITapGestureRecognizer.swift */,
-				6EB789FE8250C031986CBF4D19B60D7C /* SainiUITextField.swift */,
-				63A77795114ED4EFEE4297668906B7C1 /* SainiUIView.swift */,
-				E915D79BB00EAD3A6EA6F569D2C9075A /* SainiUIViewController.swift */,
-				C4F99085CEDEFD038EC398BC1C6AE716 /* SainiUserDefaults.swift */,
-				BC481D73B19A379E089A0C06FFA6D370 /* SainiUtility.swift */,
-				51958AC2BCDC06236CCB4C71D4FE7311 /* SainiWindow.swift */,
-				913DC0572F9DE4038CB6FB2BFE69CBB3 /* SweetAlert.swift */,
-				ABD85C2C4CBF8529270324E61966A1D1 /* Support Files */,
-			);
-			name = SainiUtils;
-			path = SainiUtils;
-			sourceTree = "<group>";
-		};
-		AEE30778B8A5638B1F4D4ECE4F1976DC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A16CFAED2AE3010ECED5FBC1EB3D321C /* Alamofire.modulemap */,
-				801CD953EA04D1FDB44B4BB7FB0F9F5C /* Alamofire.xcconfig */,
-				0247946DCE9965B0F1E96B720BA3C218 /* Alamofire-dummy.m */,
-				6CC0D6057FDB1F252FD9481048FB366E /* Alamofire-Info.plist */,
-				2D275A2CDEF7D0A6F2164DCC027960F8 /* Alamofire-prefix.pch */,
-				A7DB894DEFA6D21AD0AAED687D322A65 /* Alamofire-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */,
+				CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */,
+				49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		CD0152066D9670BB8E7491AF78911775 /* Toaster */ = {
+			isa = PBXGroup;
+			children = (
+				54F931DE2F33186BEBAE7372026AED83 /* Toast.swift */,
+				B4F53B7F4B6A2F167FB3688E89F3D12C /* ToastCenter.swift */,
+				B3488ED25A2FF187ED5CD87FE9940D7E /* Toaster.h */,
+				AEEF4B618717B3376FA1EAFA4FCD7AA7 /* ToastView.swift */,
+				D68A63792F098269C513059BA0BB46B2 /* ToastWindow.swift */,
+				055EFEFEF0729F13E3DE1C2ECBF45534 /* Support Files */,
+			);
+			name = Toaster;
+			path = Toaster;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				160D7BCE7B20B39C8C87997F02E5D05F /* Pods */,
-				4CB3C6716A632FA249D1BE3157C38FDA /* Products */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				E84F6C00879CFE2BB282A059FA5F5763 /* Pods */,
+				1BAFC306E69D960F1DD807A603520B30 /* Products */,
 				A1A8BAE2D9FB99FC49DEBDFD099D16B0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E84F6C00879CFE2BB282A059FA5F5763 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				9DB586515079467128160E0F369F2C7C /* Alamofire */,
+				119F54B6970DAF75E2A7A28076F3D9AE /* SainiUtils */,
+				CD0152066D9670BB8E7491AF78911775 /* Toaster */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		EB999E2A57F604FDAED045A5292B14A1 /* Pods-SocialLogin */ = {
@@ -404,11 +477,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		19A7157A2F3CC83B89E64FCD731C21E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AD9C846E8E67C7603CC09EC24A98F8 /* Toaster-umbrella.h in Headers */,
+				CBC27F3832D11E3144CE31A52AEED38C /* Toaster.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2582784E4FA6A1AC5D23FC53AC3F6EE2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4249D05ECEFD12C41D485160E5D88FD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A9222E25E20D0307062A4D0BE7F9F9F /* Pods-SocialLogin-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,31 +518,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAD08A2E153E712A04D2C330B6355B68 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3DB4032F108DBD7F0E6EC8A66249A834 /* Pods-SocialLogin-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C9BDD38D21B0EA4BBF0C12BC1C4B4001 /* Pods-SocialLogin */ = {
+		B90AB98A7BC6A346D671B36DB990DAC2 /* Toaster */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58DE192844C00366FE01855629C30D40 /* Build configuration list for PBXNativeTarget "Pods-SocialLogin" */;
+			buildConfigurationList = 7F7D586D0C9967BE7BE79E98769B7FD9 /* Build configuration list for PBXNativeTarget "Toaster" */;
 			buildPhases = (
-				BAD08A2E153E712A04D2C330B6355B68 /* Headers */,
-				9E70AA42CBFFD086CBC32311BA54C749 /* Sources */,
-				6C030702AFE15F1BE517A480A9DFA0BD /* Frameworks */,
-				9B6533E81F1633A4B6D1FCDFB55165CA /* Resources */,
+				19A7157A2F3CC83B89E64FCD731C21E9 /* Headers */,
+				F9790E768E3E826C36ED0CC3086AD472 /* Sources */,
+				7E6038795C21DE8E937C131A272900FA /* Frameworks */,
+				E07C304D71053DD6D19451E5160B0DD1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9F368C11B2D66C4730B94FA07533359D /* PBXTargetDependency */,
-				F2C0F8E05CE285624D8EF6633FA5D151 /* PBXTargetDependency */,
+			);
+			name = Toaster;
+			productName = Toaster;
+			productReference = BD810337F4A305D60D9250A197AA1EF1 /* Toaster.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9BDD38D21B0EA4BBF0C12BC1C4B4001 /* Pods-SocialLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 791CA6C353123CF78024249AD3E6E958 /* Build configuration list for PBXNativeTarget "Pods-SocialLogin" */;
+			buildPhases = (
+				4249D05ECEFD12C41D485160E5D88FD0 /* Headers */,
+				376E47AF09FBA6767A9530C56409BD78 /* Sources */,
+				5F39F965219C507B7E04F46E86B02FE1 /* Frameworks */,
+				84B7D9A8FAA7C0556012A9CED9F617F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76821E839A7708379A3BAA17FBE00828 /* PBXTargetDependency */,
+				943B87C7832D885C02A5F3344726BE83 /* PBXTargetDependency */,
+				0C1A4A489AD2FB83A001489AD091854E /* PBXTargetDependency */,
 			);
 			name = "Pods-SocialLogin";
 			productName = "Pods-SocialLogin";
@@ -524,7 +625,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -532,7 +633,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4CB3C6716A632FA249D1BE3157C38FDA /* Products */;
+			productRefGroup = 1BAFC306E69D960F1DD807A603520B30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -540,6 +641,7 @@
 				C9BDD38D21B0EA4BBF0C12BC1C4B4001 /* Pods-SocialLogin */,
 				FAF2BE217FFE29C94A72B7CF3EE7C29C /* Pods-SocialLoginTests */,
 				CD36453E052079C9775CD395A253E2EF /* SainiUtils */,
+				B90AB98A7BC6A346D671B36DB990DAC2 /* Toaster */,
 			);
 		};
 /* End PBXProject section */
@@ -559,7 +661,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B6533E81F1633A4B6D1FCDFB55165CA /* Resources */ = {
+		84B7D9A8FAA7C0556012A9CED9F617F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -567,6 +669,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CBF3CC2F359F0F5715D2062CFCE94272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07C304D71053DD6D19451E5160B0DD1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -598,6 +707,14 @@
 				AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */,
 				933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */,
 				53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		376E47AF09FBA6767A9530C56409BD78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7257AB9BF0CBDDBFF5C1658BFCEFD79D /* Pods-SocialLogin-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,14 +758,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E70AA42CBFFD086CBC32311BA54C749 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C34324B49BBC4B92E483542135AC85B3 /* Pods-SocialLogin-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F355945C156314B000C71C6129729F69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -657,26 +766,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9790E768E3E826C36ED0CC3086AD472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B329D48C0A3C90078D54E12F3545D1 /* Toast.swift in Sources */,
+				EE2B76A1015936D3B867283CD72FB55E /* ToastCenter.swift in Sources */,
+				8D03B5706C51EFAB22148F8ABDAB7303 /* Toaster-dummy.m in Sources */,
+				342A82732EB42E300EF63417F55E3C48 /* ToastView.swift in Sources */,
+				8A0A653CD9FAA128B349CF83F4B09345 /* ToastWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0C1A4A489AD2FB83A001489AD091854E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toaster;
+			target = B90AB98A7BC6A346D671B36DB990DAC2 /* Toaster */;
+			targetProxy = D997500943937693929780DFA87BCD20 /* PBXContainerItemProxy */;
+		};
 		69BD0163E19A49AAD071E7699A82ABA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SocialLogin";
 			target = C9BDD38D21B0EA4BBF0C12BC1C4B4001 /* Pods-SocialLogin */;
 			targetProxy = 4271D5BC70A4643C56A8900A0E8953B8 /* PBXContainerItemProxy */;
 		};
-		9F368C11B2D66C4730B94FA07533359D /* PBXTargetDependency */ = {
+		76821E839A7708379A3BAA17FBE00828 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 4D5C82A2BA9C023454BE1C688BAEDD12 /* PBXContainerItemProxy */;
+			targetProxy = 245D79D67C4501E85EE45248A24229B3 /* PBXContainerItemProxy */;
 		};
-		F2C0F8E05CE285624D8EF6633FA5D151 /* PBXTargetDependency */ = {
+		943B87C7832D885C02A5F3344726BE83 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SainiUtils;
 			target = CD36453E052079C9775CD395A253E2EF /* SainiUtils */;
-			targetProxy = E3E3D64E2A5A9B880DA37CDD3D41564D /* PBXContainerItemProxy */;
+			targetProxy = C3FF6180DB726963E5A17817814B6BF4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -783,44 +910,6 @@
 			};
 			name = Debug;
 		};
-		2621A23D78B610062F17746BCC1CB779 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADA80C692D44A2A1873E168584955152 /* Pods-SocialLogin.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SocialLogin/Pods-SocialLogin-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SocialLogin/Pods-SocialLogin.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		42AD12EF1D65A4F00A3E81D4AA81DC6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 26CB598487002BAD9FAC86DD88A54D91 /* Pods-SocialLoginTests.release.xcconfig */;
@@ -860,115 +949,7 @@
 			};
 			name = Release;
 		};
-		75BBB760DFD877E344322B54D29DFE64 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 801CD953EA04D1FDB44B4BB7FB0F9F5C /* Alamofire.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8F53A2E29688482E1E794D92F3FFF6D4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62442D4AA9F65B67A5B67CA1934B7641 /* SainiUtils.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SainiUtils/SainiUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SainiUtils/SainiUtils-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SainiUtils/SainiUtils.modulemap";
-				PRODUCT_MODULE_NAME = SainiUtils;
-				PRODUCT_NAME = SainiUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B1ECF7DCF23D11A7DC05CD0E7CD0AD63 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62442D4AA9F65B67A5B67CA1934B7641 /* SainiUtils.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SainiUtils/SainiUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SainiUtils/SainiUtils-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SainiUtils/SainiUtils.modulemap";
-				PRODUCT_MODULE_NAME = SainiUtils;
-				PRODUCT_NAME = SainiUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E041AE964AB5D562F817C509DD64B41D /* Release */ = {
+		50D6C69F7926A1D23F2E2E09A44B3D0E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBA4D596604E5897E8B53B14212CDA4E /* Pods-SocialLogin.release.xcconfig */;
 			buildSettings = {
@@ -1006,6 +987,223 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		751157AE5278037C348F9540CE776B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA80C692D44A2A1873E168584955152 /* Pods-SocialLogin.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SocialLogin/Pods-SocialLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SocialLogin/Pods-SocialLogin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75BBB760DFD877E344322B54D29DFE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112331BFA81FBE27E93AFBBB1E0BDF8B /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F53A2E29688482E1E794D92F3FFF6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52047209F43069607BF67329F8043B94 /* SainiUtils.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SainiUtils/SainiUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SainiUtils/SainiUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SainiUtils/SainiUtils.modulemap";
+				PRODUCT_MODULE_NAME = SainiUtils;
+				PRODUCT_NAME = SainiUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1ECF7DCF23D11A7DC05CD0E7CD0AD63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52047209F43069607BF67329F8043B94 /* SainiUtils.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SainiUtils/SainiUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SainiUtils/SainiUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SainiUtils/SainiUtils.modulemap";
+				PRODUCT_MODULE_NAME = SainiUtils;
+				PRODUCT_NAME = SainiUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C974F4E36035CE5E5E9D01160FEA8EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E2FAC99EB97DB6CBDE1E070089A9F92 /* Toaster.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toaster/Toaster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toaster/Toaster-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toaster/Toaster.modulemap";
+				PRODUCT_MODULE_NAME = Toaster;
+				PRODUCT_NAME = Toaster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E413722AEF1D56511B6B9A76D6A9ECDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E2FAC99EB97DB6CBDE1E070089A9F92 /* Toaster.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toaster/Toaster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toaster/Toaster-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toaster/Toaster.modulemap";
+				PRODUCT_MODULE_NAME = Toaster;
+				PRODUCT_NAME = Toaster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1069,7 +1267,7 @@
 		};
 		F94FD07C591B17B7E61A1528AB9BCB3B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 801CD953EA04D1FDB44B4BB7FB0F9F5C /* Alamofire.xcconfig */;
+			baseConfigurationReference = 112331BFA81FBE27E93AFBBB1E0BDF8B /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1124,11 +1322,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58DE192844C00366FE01855629C30D40 /* Build configuration list for PBXNativeTarget "Pods-SocialLogin" */ = {
+		791CA6C353123CF78024249AD3E6E958 /* Build configuration list for PBXNativeTarget "Pods-SocialLogin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2621A23D78B610062F17746BCC1CB779 /* Debug */,
-				E041AE964AB5D562F817C509DD64B41D /* Release */,
+				751157AE5278037C348F9540CE776B7F /* Debug */,
+				50D6C69F7926A1D23F2E2E09A44B3D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F7D586D0C9967BE7BE79E98769B7FD9 /* Build configuration list for PBXNativeTarget "Toaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E413722AEF1D56511B6B9A76D6A9ECDA /* Debug */,
+				C974F4E36035CE5E5E9D01160FEA8EA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
