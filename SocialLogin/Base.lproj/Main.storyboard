@@ -1,24 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Tgx-6s-AWO">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--HomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="BYZ-38-t0r" customClass="HomeVC" customModule="SocialLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="14G-qc-50H">
+                                <rect key="frame" x="50" y="154" width="220" height="260"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cy0-0y-WSc">
+                                        <rect key="frame" x="0.0" y="0.0" width="220" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="ENL-PG-b9M"/>
+                                        </constraints>
+                                        <state key="normal" title="Sign up with Instagram"/>
+                                        <connections>
+                                            <action selector="signUpWithInstagramBtnIsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KuU-zd-mtk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dlx-z6-kec">
+                                        <rect key="frame" x="0.0" y="70" width="220" height="50"/>
+                                        <state key="normal" title="Sign up with Google"/>
+                                        <connections>
+                                            <action selector="signUpWithGoogleBtnIsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6M5-Z5-WaU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TRI-hF-rse">
+                                        <rect key="frame" x="0.0" y="140" width="220" height="50"/>
+                                        <state key="normal" title="Sign up with Facebook"/>
+                                        <connections>
+                                            <action selector="signUpWithFacebookBtnIsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UkG-fY-xX5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="86g-AP-jaP">
+                                        <rect key="frame" x="0.0" y="210" width="220" height="50"/>
+                                        <state key="normal" title="Sign up with Apple"/>
+                                        <connections>
+                                            <action selector="signUpWithAppleBtnIsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KdJ-3X-eOj"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="S54-Af-S0O"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="14G-qc-50H" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Fb7-1U-i57"/>
+                            <constraint firstItem="14G-qc-50H" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rye-eR-MSa"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="lgd-aW-f7K"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1136.25" y="98.239436619718305"/>
+        </scene>
+        <!--InstagramVC-->
+        <scene sceneID="d60-D0-8aj">
+            <objects>
+                <viewController storyboardIdentifier="InstagramVC" id="4rw-hH-wdN" customClass="InstagramVC" customModule="SocialLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xho-Zj-Azv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J70-fC-dRh">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="xRR-St-45i" firstAttribute="bottom" secondItem="J70-fC-dRh" secondAttribute="bottom" id="ZbU-Pg-dtf"/>
+                            <constraint firstItem="J70-fC-dRh" firstAttribute="leading" secondItem="xRR-St-45i" secondAttribute="leading" id="e1h-L8-2l4"/>
+                            <constraint firstItem="xRR-St-45i" firstAttribute="trailing" secondItem="J70-fC-dRh" secondAttribute="trailing" id="oFq-YR-kDs"/>
+                            <constraint firstItem="J70-fC-dRh" firstAttribute="top" secondItem="xRR-St-45i" secondAttribute="top" id="oTW-2o-gTC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xRR-St-45i"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="J70-fC-dRh" id="ach-jI-0oC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VuW-oA-gYj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1998.75" y="97.183098591549296"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="OXb-dm-rCM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Tgx-6s-AWO" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="By4-Cf-ddK">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="7Q5-Xg-izO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b9D-C2-3i4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.75" y="98.239436619718305"/>
         </scene>
     </scenes>
 </document>
